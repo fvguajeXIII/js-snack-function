@@ -18,7 +18,7 @@ function contaVocali(str) {
 }
 
 // Invoca la funzione qui e stampa il risultato in console
-
-
+const risultato = contaVocali(word);
+console.log(risultato.count, risultato.trovate.join(`, `));
 
 //Risultato atteso se si passa 'javascript': 3 (a, a, i)
