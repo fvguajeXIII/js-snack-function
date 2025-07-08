@@ -4,7 +4,18 @@ const word = 'javascript';
 
 
 // Dichiara la funzione qui.
-
+function contaVocali(str) {
+  const vocali = ['a', 'e', 'i', 'o', 'u'];
+  let count = 0;
+  let trovate = [];
+  for (let i = 0; i < str.length; i++) {
+    if (vocali.includes(str[i].toLowerCase())) {
+      count++;
+      trovate.push(str[i]);
+    }
+  }
+  return {count, trovate};
+}
 
 // Invoca la funzione qui e stampa il risultato in console
 
