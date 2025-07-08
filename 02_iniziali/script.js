@@ -4,10 +4,15 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 
 // Dichiara la funzione qui.
-
+function iniziali (arr) {
+  const result = [];
+  for (let i = 0; i < arr.length; i++) {
+    result.push(arr[i].split(``)[0]);
+  }
+  return result;
+}
 
 // Invoca la funzione qui e stampa il risultato in console
-
 
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
