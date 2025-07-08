@@ -15,6 +15,6 @@ function letterA (arr, lettera){
 }
 
 // Invoca la funzione qui e stampa il risultato in console
-
+console.log(letterA(names, `A`))
 
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
